@@ -1,4 +1,4 @@
-var {src, dest, series, parallel, watch} = require('gulp'),
+﻿var {src, dest, series, parallel, watch} = require('gulp'),
 sass = require('gulp-sass'),
 browserSync = require('browser-sync'),
 postcss = require('gulp-postcss');
@@ -77,6 +77,8 @@ exports.serve = serve;
 exports.spriteSvg = spriteSvg;
 
 exports.default = series(parallel(styles, scripts, images, copyHtml), parallel(watcher, serve));
+
+
 
 
 

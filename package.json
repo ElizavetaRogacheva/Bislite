@@ -1,7 +1,7 @@
 {
-  "name": "miushi",
+  "name": "Bislite",
   "version": "1.0.0",
-  "description": "food ordering site",
+  "description": "logo store website",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ElizavetaRogacheva/miushi.git"
+    "url": "git+https://github.com/ElizavetaRogacheva/Bislite.git"
   },
   "keywords": [
     "order",
@@ -19,9 +19,9 @@
   "author": "Elizaveta Rogacheva",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ElizavetaRogacheva/miushi/issues"
+    "url": "https://github.com/ElizavetaRogacheva/Bislite"
   },
-  "homepage": "https://github.com/ElizavetaRogacheva/miushi#readme",
+  "homepage": "https://github.com/ElizavetaRogacheva/Bislite#readme",
   "devDependencies": {
     "autoprefixer": "^9.4.6",
     "browser-sync": "^2.26.3",
