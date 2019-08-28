@@ -1,0 +1,22 @@
+.main-nav__section {
+    background-color: #e8ebf1;
+}
+
+.main-nav__container {
+    display: flex;
+}
+
+.main-nav__list {
+    display: flex;
+}
+
+.main-nav__submenu {
+    display: none;
+}
+
+.main-nav__link {
+    font-size: rem(13px);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+}
