@@ -1,0 +1,102 @@
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+}
+
+.advantages {
+    background-color: #e8ebf1;
+}
+
+.advantages-container {
+    padding-top: rem(60px);
+
+}
+
+.advantages__list {
+    display: flex;
+}
+
+.advantages__item {
+    width: 25%;
+    padding-right: rem(20px);
+}
+
+.advantages-item__title {
+    text-transform: uppercase;
+    font-size: rem(15px);
+    font-weight: bold;
+    margin-bottom: rem(40px);
+    margin-left: rem(60px);
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: rem(43px);
+        height: rem(43px);
+        background-color: #2aacc8;
+        border-radius: 50%;
+        left: rem(-60px);
+        top: rem(-10px);
+
+    }
+
+    &--clean {
+        &::before {
+            background-image: url(../../img/Shape.png);
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+    &--responsive {
+        &::before {
+            background-image: url(../../img/fullscreen.png);
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+    &--fully {
+        &::before {
+            background-image: url(../../img/view-list.png);
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+    &--coding {
+        &::before {
+            background-image: url(../../img/plane.png);
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+.advantages-item__description {
+    font-size: rem(13px);
+    margin: 0;
+    margin-bottom: rem(30px);
+}
+
+.advantages-item__link {
+    color: #2aacc8;
+    display: block;
+    font-size: rem(13px);
+    margin-left: rem(15px);
+    margin-bottom: rem(50px);
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        height: rem(10px);
+        width: rem(7px);
+        top: rem(3px);
+        left: rem(-10px);
+        background-image: url(../../img/arow-right.png);
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
