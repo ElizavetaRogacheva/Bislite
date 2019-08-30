@@ -21,10 +21,41 @@
 .main-slider__item {
     min-width: rem(1000px);
     height: rem(440px);
-    background-color: seagreen;
+    position: relative;
+
+    &:nth-child(2) {
+        p {
+            left: rem(640px);
+            top: rem(230px);
+        
+        }
+    }
+
+    &:nth-child(3) {
+        p {
+            left: rem(500px);
+            top: rem(100px);
+        
+        }
+    }
+
+    &:nth-child(5) {
+        p {
+            left: rem(100px);
+            top: rem(20px);
+            width: rem(500px);
+        }
+    }
 }
 
 .main-slider__text {
     color: #ffffff;
     font-family: 'Lato';
+    font-weight: bold;
+    font-size: rem(50px);
+    width: rem(370px);
+    position: absolute;
+    left: rem(60px);
+    top: rem(100px);
+    margin: 0;
 }
