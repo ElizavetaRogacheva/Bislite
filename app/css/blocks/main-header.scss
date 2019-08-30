@@ -12,7 +12,6 @@
     height: rem(440px);
     width: 100%;
     background-color: #df5936;
-    border: 2px solid green;
 }
 
 .main-slider__list {
@@ -23,4 +22,9 @@
     min-width: rem(1000px);
     height: rem(440px);
     background-color: seagreen;
+}
+
+.main-slider__text {
+    color: #ffffff;
+    font-family: 'Lato';
 }
