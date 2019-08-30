@@ -1,9 +1,11 @@
 .main-nav__section {
     background-color: #e8ebf1;
+    max-height: rem(120px);
 }
 
 .main-nav__container {
     display: flex;
+    justify-content: space-between;
 }
 
 .main-nav__list {
@@ -20,3 +22,17 @@
     text-transform: uppercase;
     color: #000000;
 }
+
+.main-logo__link {
+    font-family: Myriad Pro, Regular, sans-serif;
+    font-size: rem(50px);
+
+    .first {
+        color: #000000;
+    }
+
+    .second {
+        color: #2aacc8;
+    }
+}
+
